@@ -11,7 +11,7 @@ export const About = () => {
         src={imageSrc}
         alt='Christian'
         width='auto'
-        height='600'
+        height='650'
       />
 
       <div className='about-text'>
