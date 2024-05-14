@@ -9,6 +9,7 @@ While the contents of the website were all created from scratch, this website to
 - [Vite](https://vitejs.dev/) was used bootstrap the application and take care of everything under the hood.
 - [Porkbun](https://porkbun.com/) was used to register the domain and maintain DNS records.
 - [Github Pages](https://pages.github.com/) was used to deploy the site.
+- [Single Page Apps for GitHub Pages](https://github.com/rafgraph/spa-github-pages?tab=readme-ov-file#readme) was used to allow Github Pages to support the single-page application.
 - [Sass](https://sass-lang.com/) was used for the styling.
 - Mark Kirkpatrick's art was used for the background image. You can find him on [ArtStation](https://www.artstation.com/visualhuman) and [Behance](https://www.behance.net/mkcreativeco).
 - [@szhsin/react-menu](https://szhsin.github.io/react-menu/) was used for the mobile burger menu.
