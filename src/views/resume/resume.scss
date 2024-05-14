@@ -1,0 +1,39 @@
+@use '../../utilities/variables';
+
+.resume-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+  margin: 0 auto;
+  max-width: variables.$content-max-width-small;
+  padding-top: 16px;
+}
+
+.download-text {
+  font-size: 24px;
+
+  a {
+    transition: variables.$color-transition;
+    color: variables.$accent-dark-primary;
+  }
+  a:hover,
+  a:focus {
+    color: variables.$accent-dark-hover;
+  }
+
+  a:focus-visible {
+    outline: none;
+    text-decoration: underline;
+  }
+
+  @media (max-width: variables.$breakpoint-mobile) {
+    font-size: 20px;
+  }
+}
+
+object {
+  @media (max-width: variables.$breakpoint-mobile) {
+    height: auto;
+  }
+}

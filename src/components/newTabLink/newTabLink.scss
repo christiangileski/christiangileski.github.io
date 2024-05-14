@@ -1,0 +1,15 @@
+@use '../../utilities/variables';
+a {
+  transition: variables.$color-transition;
+  color: variables.$accent-light-primary;
+}
+
+a:hover,
+a:focus {
+  color: variables.$accent-light-hover;
+}
+
+a:focus-visible {
+  outline: none;
+  text-decoration: underline;
+}

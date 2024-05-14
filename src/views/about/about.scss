@@ -1,0 +1,30 @@
+@use '../../utilities/variables';
+
+.about-container {
+  display: flex;
+  gap: 16px;
+
+  padding-top: 48px;
+  margin: 0 auto;
+  max-width: variables.$content-max-width-small;
+
+  @media (max-width: variables.$breakpoint-mobile) {
+    flex-direction: column;
+    padding-top: 24px;
+  }
+}
+
+.about-image {
+  border-radius: variables.$border-radius;
+}
+
+.about-text {
+  opacity: 0.85;
+
+  border-radius: variables.$border-radius;
+  height: fit-content;
+  padding: 16px;
+
+  background-color: variables.$accent-dark-primary;
+  color: variables.$white;
+}

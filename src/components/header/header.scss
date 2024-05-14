@@ -1,0 +1,117 @@
+@use '../../utilities/variables';
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  opacity: 1;
+
+  transition: variables.$opacity-transition;
+
+  height: 64px;
+}
+
+.logo:hover {
+  opacity: 0.6;
+}
+
+.logo:focus {
+  opacity: 0.6;
+
+  outline: 1px solid variables.$accent-dark-hover;
+  outline-offset: 4px;
+}
+
+.header-links {
+  display: flex;
+  gap: 16px;
+
+  font-size: 22px;
+
+  a {
+    transition: variables.$color-transition;
+
+    color: variables.$accent-dark-primary;
+    border-bottom: 2px solid transparent;
+
+    &.underline {
+      border-color: variables.$accent-dark-primary;
+    }
+  }
+
+  a:hover,
+  a:focus {
+    color: variables.$accent-dark-hover;
+
+    &.underline {
+      border-color: variables.$accent-dark-hover;
+    }
+  }
+
+  a:focus-visible {
+    color: variables.$accent-dark-hover;
+    outline: 1px solid variables.$accent-dark-hover;
+    outline-offset: 4px;
+    text-decoration: none;
+
+    &.underline {
+      border-color: variables.$accent-dark-hover;
+    }
+  }
+
+  @media (max-width: variables.$breakpoint-mobile) {
+    display: none;
+  }
+}
+
+// BURGER MENU STYLES
+.header-menu-button {
+  opacity: 1;
+  transition: variables.$opacity-transition;
+
+  height: 48px;
+
+  @media (min-width: variables.$breakpoint-mobile) {
+    display: none;
+  }
+}
+
+.header-menu-button:hover {
+  opacity: 0.6;
+}
+
+.header-menu-button:focus {
+  opacity: 0.6;
+
+  outline: 1px solid variables.$accent-dark-hover;
+  outline-offset: 4px;
+}
+
+.szh-menu {
+  // This just ensures the menu is above all other content
+  z-index: 999;
+
+  border: 1px solid variables.$white;
+  border-radius: variables.$border-radius;
+  padding: 16px;
+
+  background-color: variables.$accent-dark-primary;
+
+  li {
+    padding: 4px 0;
+    font-size: 20px;
+  }
+
+  a {
+    transition: variables.$color-transition;
+    color: variables.$white;
+  }
+
+  a:hover,
+  a:focus {
+    color: variables.$accent-light-hover;
+  }
+}

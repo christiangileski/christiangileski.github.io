@@ -1,0 +1,47 @@
+@use '../../utilities/variables';
+
+.contact-container {
+  margin: 0 auto;
+  max-width: variables.$content-max-width-large;
+  padding-top: 48px;
+}
+
+.title,
+.subtitle {
+  margin: 16px 0;
+}
+
+.contact-info {
+  margin: 16px 0;
+
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.contact-links {
+  display: flex;
+  gap: 32px;
+
+  height: 56px;
+
+  font-size: 28px;
+
+  a {
+    opacity: 1;
+    transition: variables.$opacity-transition;
+
+    border-bottom: 2px solid transparent;
+  }
+
+  a:hover,
+  a:focus {
+    opacity: 0.6;
+  }
+
+  a:focus-visible {
+    opacity: 0.6;
+
+    outline: 1px solid variables.$accent-dark-hover;
+    outline-offset: 4px;
+  }
+}

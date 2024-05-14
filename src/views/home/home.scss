@@ -1,0 +1,43 @@
+@use '../../utilities/variables';
+
+.home-container {
+  margin: 0 auto;
+  max-width: variables.$content-max-width-large;
+  padding-top: 48px;
+}
+
+.title,
+.subtitle {
+  margin: 16px 0;
+}
+
+.home-links {
+  display: flex;
+  gap: 16px;
+
+  font-size: 28px;
+
+  a {
+    transition: variables.$color-transition;
+
+    color: variables.$accent-dark-primary;
+    border-bottom: 2px solid transparent;
+  }
+
+  a:hover,
+  a:focus {
+    color: variables.$accent-dark-hover;
+  }
+
+  a:focus-visible {
+    color: variables.$accent-dark-hover;
+    outline: 1px solid variables.$accent-dark-hover;
+    outline-offset: 4px;
+    text-decoration: none;
+  }
+
+  @media (max-width: variables.$breakpoint-mobile) {
+    gap: 16px;
+    font-size: 20px;
+  }
+}
