@@ -32,7 +32,7 @@ export const About = () => {
         <NewTabLink href='https://www.ellucian.com/'>Ellucian</NewTabLink>,{' '}
         <NewTabLink href='https://www.heretto.com/'>Heretto</NewTabLink>, and{' '}
         <NewTabLink href='https://www.affinity.co/'>Affinity</NewTabLink>.{' '}
-        <b>I am currently looking for work.</b>
+        I currently work for <NewTabLink href='https://www.vantaca.com/'><b>Vantaca</b></NewTabLink>.
         <br />
         <br />
         In my personal time, I enjoy playing disc golf, watching football on
