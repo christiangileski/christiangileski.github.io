@@ -17,7 +17,7 @@ export const Resume = () => {
         type='application/pdf'
         data={`${pdfSrc}#toolbar=0`}
         width='auto'
-        height='700px'
+        height='100%'
       >
         Your browser doesn't support PDFs. Please use the link above to download
         the file.
