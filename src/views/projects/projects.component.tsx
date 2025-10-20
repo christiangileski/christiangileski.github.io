@@ -8,19 +8,12 @@ export const Projects = () => {
   return (
     <div className='projects-container'>
       <div className='projects-text'>
-        I strive to maintain a healthy balance between programming and my
-        pastimes outside of a professional setting. As such, I do not often code
-        outside of the workplace. I enjoy coding and will deliver quality code
-        for any employer, but I choose to spend my personal time on my hobbies.
-        This helps me maintain enjoyment of coding without feeling burnt out.
-        <br />
-        <br />
-        However, I wanted to be able to showcase my abilities to prospective
+        I wanted to be able to showcase my coding ability to prospective
         employers, so I built this website to highlight my creative side as well
         as a little bit of coding expertise, as I believe that blend of skills
-        is the sweetness I bring to the table. I bootstrapped the website using{' '}
-        <NewTabLink href='https://vitejs.dev/'>Vite</NewTabLink>, registered the
-        domain and maintain DNS records through{' '}
+        is the combination I bring to the table. I bootstrapped the website
+        using <NewTabLink href='https://vitejs.dev/'>Vite</NewTabLink>,
+        registered the domain and maintain DNS records through{' '}
         <NewTabLink href='https://porkbun.com/'>Porkbun</NewTabLink>, and
         deployed the site through{' '}
         <NewTabLink href='https://pages.github.com/'>Github Pages</NewTabLink>.
@@ -29,6 +22,16 @@ export const Projects = () => {
           here
         </NewTabLink>
         .
+        <br />
+        <br />I didn't use <em>any</em> AI tools in the creation of this site.
+        Professionally, I use Claude, ChatGPT, Cursor, etc. extensively, but I
+        wanted to demonstrate that there are still programmers out there who can
+        whip up applications from scratch. Although, I suppose that breed of
+        developer is becoming obsolete with the prominence of the aforementioned
+        AI tools. As such, I've been channeling my efforts towards becoming a
+        better architect and thinking more about the long-term objectives that
+        AI lacks the foresight to consider, but having the foundational coding
+        skills is still important, in my opinion.
         <br />
         <br />
         The artist whose picture is used for the background is{' '}
