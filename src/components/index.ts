@@ -1,2 +1,2 @@
-export { Header } from './header';
-export { NewTabLink } from './newTabLink';
+export { Header } from './header/Header';
+export { NewTabLink } from './newTabLink/NewTabLlink';
