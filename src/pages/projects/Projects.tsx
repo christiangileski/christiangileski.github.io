@@ -23,16 +23,6 @@ export const Projects = () => {
         </NewTabLink>
         .
         <br />
-        <br />I didn't use <em>any</em> AI tools in the creation of this site.
-        Professionally, I use Claude, ChatGPT, Cursor, etc. extensively, but I
-        wanted to demonstrate that there are still programmers out there who can
-        whip up applications from scratch. Although, I suppose that breed of
-        developer is becoming obsolete with the prominence of the aforementioned
-        AI tools. As such, I've been channeling my efforts towards becoming a
-        better architect and thinking more about the long-term objectives that
-        AI lacks the foresight to consider, but having the foundational coding
-        skills is still important, in my opinion.
-        <br />
         <br />
         The artist whose picture is used for the background is{' '}
         <b>Mark Kirkpatrick</b>. You can find him on{' '}
